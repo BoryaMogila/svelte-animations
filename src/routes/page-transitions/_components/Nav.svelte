@@ -50,12 +50,26 @@
 
 <nav>
 	<ul>
-		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-		<li><a class='{segment === "more" ? "selected" : ""}' href='more'>more</a></li>
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
+		<li>
+			<a
+				class='{segment === undefined ? "selected" : ""}'
+			   href='page-transitions'>
+				Головна
+			</a>
+		</li>
+		<li>
+			<a
+				class='{segment === "about" ? "selected" : ""}'
+			   href='page-transitions/about'>
+				Про нас
+			</a>
+		</li>
+		<li>
+			<a
+					class='{segment === "last-events" ? "selected" : ""}'
+			   href='page-transitions/last-events'>
+				Попередні події
+			</a>
+		</li>
 	</ul>
 </nav>

@@ -25,7 +25,11 @@ h1 {
 a {
   color: inherit;
 }
-
+body, main {
+  color: #fff;
+  background-color: #a86500;
+  border-color: #9c5d00;
+}
 main {
   position: absolute;
   width: 100vw;
