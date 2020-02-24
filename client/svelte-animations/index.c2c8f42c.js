@@ -1,1 +1,0 @@
-import"./client.7be79529.js";function t(t){return t<.5?4*t*t*t:.5*Math.pow(2*t-2,3)+1}function n(t){const n=t-1;return n*n*n+1}function r(t){return Math.sin(-13*(t+1)*Math.PI/2)*Math.pow(2,-10*t)+1}function a(t){return--t*t*t*t*t+1}export{t as a,n as c,r as e,a as q};

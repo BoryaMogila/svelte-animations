@@ -1,0 +1,1 @@
+import{e as s,q as a}from"./index.18e1b837.js";import{c as n}from"./index.f54cbf34.js";const[r,t]=n({easing:s,duration:s=>Math.sqrt(5e3*s),fallback(s,n){const r=getComputedStyle(s),t="none"===r.transform?"":r.transform;return{duration:1500,easing:a,css:s=>`\n                transform: ${t} scale(${s});\n                opacity: ${s}\n            `}}});export{t as r,r as s};
