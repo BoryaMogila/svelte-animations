@@ -35,5 +35,6 @@
     "sapper": "*",
     "svelte": "*"
   },
-  "keywords": []
+  "keywords": [],
+  "license": "MIT"
 }
