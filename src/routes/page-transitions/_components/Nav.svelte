@@ -54,7 +54,7 @@
 			<a
 				class='{segment === undefined ? "selected" : ""}'
 			   href='page-transitions'>
-				Головна
+				VinnytsiaJS 2020
 			</a>
 		</li>
 		<li>
@@ -69,6 +69,11 @@
 					class='{segment === "last-events" ? "selected" : ""}'
 			   href='page-transitions/last-events'>
 				Попередні події
+			</a>
+		</li>
+		<li>
+			<a href='/'>
+				Головна
 			</a>
 		</li>
 	</ul>
