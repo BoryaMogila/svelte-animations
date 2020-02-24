@@ -73,10 +73,6 @@
     height: calc(100vh - 32px);
   }
 
-  .board > input {
-    font-size: 1.4em;
-  }
-
   h2 {
     text-align: center;
     font-size: 2em;

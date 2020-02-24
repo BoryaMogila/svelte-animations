@@ -54,11 +54,6 @@
     max-width: 36em;
     margin: 0 auto;
   }
-
-  .board > input {
-    font-size: 1.4em;
-  }
-
   h2 {
     text-align: center;
     font-size: 2em;

@@ -97,13 +97,6 @@
     border-radius: 2vmin;
   }
 
-  h1 {
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 5vmin;
-    margin: 0.2em 0 0.5em 0;
-  }
-
   .grid {
     display: grid;
     flex: 1;
@@ -142,9 +135,5 @@
   img {
     object-fit: cover;
     cursor: pointer;
-  }
-
-  .credit a, .credit a:visited {
-    color: white;
   }
 </style>
