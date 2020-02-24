@@ -9,10 +9,9 @@ jobs:
       - run:
           name: build project
           command: |
-            npm install
-            npm run export
+            yarn
+            yarn run export
             cp -r .circleci/ __sapper__/export/.circleci/
-            cp __sapper__/export/404/index.html __sapper__/export/404.html
       - persist_to_workspace:
           root: __sapper__
           paths: export/*
@@ -29,7 +28,7 @@ jobs:
       - run:
           name: install gh-pages npm package
           command: |
-            npm install -g --silent gh-pages
+            yarn add -g --silent gh-pages
             git config user.email "bora.mog@gmail.com"
             git config user.name "BoryaMogila"
       - run:
