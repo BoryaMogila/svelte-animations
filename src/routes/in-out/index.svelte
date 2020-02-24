@@ -20,7 +20,7 @@
 <style>
   section {
     display: table;
-    height: 450px;
+    height: calc(100vh - 32px);
     width:100%;
   }
   .middle {

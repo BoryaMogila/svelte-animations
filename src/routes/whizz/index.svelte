@@ -70,7 +70,7 @@
     display: grid;
     max-width: 36em;
     margin: 0 auto;
-    height: 450px;
+    height: calc(100vh - 32px);
   }
 
   .board > input {

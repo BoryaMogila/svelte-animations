@@ -39,7 +39,7 @@
     width: 100vw;
     text-align: center;
     display: table-cell;
-    height: 450px;
+    height: calc(100vh - 32px);
     vertical-align: middle;
   }
 </style>

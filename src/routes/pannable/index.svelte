@@ -27,7 +27,7 @@
 
 <style>
   .wrap {
-    height: 450px;
+    height: calc(100vh - 32px);
   }
   .box {
     background-image: url("/vin_js.jpg");

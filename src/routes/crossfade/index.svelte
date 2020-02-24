@@ -81,7 +81,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 32px);
     top: 0;
     left: 0;
   }
